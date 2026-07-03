@@ -126,13 +126,20 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
         url: "https://docs-firefly.cuteleaf.cn",
         external: true,
         icon: "material-symbols:docs",
-      },
+		},
+	  {
+	  name: "Firefly交流群",
+				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				external: true,
+				icon: "fa7-brands:qq",
+			},
       {
         name: "Astro",
         url: "https://astro.build/",
         external: true,
         icon: "material-symbols:rocket-launch",
-      },
+		},
+	  
     ],
   });
 
