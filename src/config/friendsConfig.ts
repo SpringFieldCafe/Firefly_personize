@@ -14,7 +14,7 @@ export const friendsPageConfig: FriendsPageConfig = {
 	showCustomContent: true,
 
 	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
-	showComment: true,
+	showComment: false,
 
 	// 是否开启随机排序配置，如果开启，就会忽略权重，构建时进行一次随机排序
 	randomizeSort: false,
@@ -31,6 +31,15 @@ export const friendsConfig: FriendLink[] = [
 		tags: ["Blog"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
+	},
+	{
+	title: "fqzlr",
+	imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+	desc: "躬身入局，心为主理，行有尺度，自持本心",
+	siteurl: "https://fqzlr.com",
+	tags: ["Blog"],
+	weight: 10,
+	enabled: true,
 	},
 	{
 		title: "Firefly Docs",

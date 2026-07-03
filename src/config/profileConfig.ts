@@ -12,7 +12,7 @@ export const profileConfig: ProfileConfig = {
   name: "Fly me to moon",
 
   // 个人签名
-  bio: "Let me see what spring is like on a-Jupiter and Mars.",
+  bio: "今、私、少しだけ夢に近づきました！",
 
   // 链接配置
   // 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
