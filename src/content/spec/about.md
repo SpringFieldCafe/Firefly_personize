@@ -2,9 +2,9 @@
 
 你好！我是 **Fly me to moon** 
 
-QQ： 2574703489   密码：恨之入骨    请在备注中说明来意
+QQ： 2574703489   密码：恨之入骨    **(请在备注中说明来意)**
 
-微信： Ta_chi_ba_na                请在备注中说明来意
+微信： Ta_chi_ba_na                **(请在备注中说明来意)**
 
 
 
@@ -26,9 +26,7 @@ QQ： 2574703489   密码：恨之入骨    请在备注中说明来意
 
 **⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
 
-::github{repo="CuteLeaf/Firefly"}
 
-::github{repo="saicaca/fuwari"}
 
 ---
 
