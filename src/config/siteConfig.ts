@@ -12,21 +12,14 @@ export const siteConfig: SiteConfig = {
 	subtitle: "404 Not Found",
 
 	// 站点 URL
-	site_url:  "https://SpringFieldCafe.github.io",
+	site_url: "https://SpringFieldCafe.github.io",
 
 	// 站点描述
 	description:
 		"本站是一个用于记录技术学习、工程实践与个人项目的静态博客，内容涵盖工作流与个人开发经验。基于开源 Firefly ， Astro 框架，Fuwari。",
 
 	// 站点关键词
-	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"博客",
-		"技术博客",
-		"静态博客",
-	],
+	keywords: ["Firefly", "Fuwari", "Astro", "博客", "技术博客", "静态博客"],
 
 	// 主题色
 	themeColor: {
@@ -215,11 +208,12 @@ export const siteConfig: SiteConfig = {
 		// 支持通配符 *，例如：["i0.hdslb.com", "*.bilibili.com"]
 		// 可解决指定域名图片加载时的 403 问题（如防盗链图片）
 		noReferrerDomains: [
-		"*.hdslb.com", 
-		"*.bilibili.com","cdn.jsdelivr.net",
-    	"raw.githubusercontent.com",
-    	"*.githubusercontent.com",
-    	"SpringFieldCafe.github.io"
+			"*.hdslb.com",
+			"*.bilibili.com",
+			"cdn.jsdelivr.net",
+			"raw.githubusercontent.com",
+			"*.githubusercontent.com",
+			"SpringFieldCafe.github.io",
 		],
 	},
 

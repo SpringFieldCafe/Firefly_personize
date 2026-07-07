@@ -33,13 +33,13 @@ export const friendsConfig: FriendLink[] = [
 		enabled: true, // 是否启用
 	},
 	{
-	title: "fqzlr",
-	imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
-	desc: "躬身入局，心为主理，行有尺度，自持本心",
-	siteurl: "https://fqzlr.com",
-	tags: ["Blog"],
-	weight: 10,
-	enabled: true,
+		title: "fqzlr",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=20447289&s=640",
+		desc: "躬身入局，心为主理，行有尺度，自持本心",
+		siteurl: "https://fqzlr.com",
+		tags: ["Blog"],
+		weight: 10,
+		enabled: true,
 	},
 	{
 		title: "Firefly Docs",

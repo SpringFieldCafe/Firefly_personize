@@ -10,149 +10,148 @@ import {
 // NavBar Configuration - Dynamically generate navigation bar links based on order
 // ============================================================================
 const getDynamicNavBarConfig = (): NavBarConfig => {
-  // 基础导航栏链接
-  const links: NavBarLink[] = [
-    // 主页
-    LinkPresets.Home,
-  ];
+	// 基础导航栏链接
+	const links: NavBarLink[] = [
+		// 主页
+		LinkPresets.Home,
+	];
 
-  // 文章及其子菜单
-  links.push({
-    name: "文章",
-    url: "#",
-    icon: "material-symbols:article",
-    children: [
-      // 归档
-      LinkPresets.Archive,
+	// 文章及其子菜单
+	links.push({
+		name: "文章",
+		url: "#",
+		icon: "material-symbols:article",
+		children: [
+			// 归档
+			LinkPresets.Archive,
 
-      // 分类
-      LinkPresets.Categories,
+			// 分类
+			LinkPresets.Categories,
 
-      // 标签
-      LinkPresets.Tags,
-    ],
-  });
+			// 标签
+			LinkPresets.Tags,
+		],
+	});
 
-  // 友链
-  links.push(LinkPresets.Friends);
+	// 友链
+	links.push(LinkPresets.Friends);
 
-  // 留言板
-  links.push(LinkPresets.Guestbook);
+	// 留言板
+	links.push(LinkPresets.Guestbook);
 
-  // 我的及其子菜单
-  links.push({
-    name: "我的",
-    url: "#",
-    icon: "material-symbols:person",
-    children: [
-      // 相册
-      LinkPresets.Gallery,
+	// 我的及其子菜单
+	links.push({
+		name: "我的",
+		url: "#",
+		icon: "material-symbols:person",
+		children: [
+			// 相册
+			LinkPresets.Gallery,
 
-      // 追番
-      LinkPresets.Anime,
+			// 追番
+			LinkPresets.Anime,
 
-      // 番组计划
-      LinkPresets.Bangumi,
-    ],
-  });
+			// 番组计划
+			LinkPresets.Bangumi,
+		],
+	});
 
-  // 关于及其子菜单
-  links.push({
-    name: "关于",
-    url: "#",
-    icon: "material-symbols:info",
-    children: [
-      // 打赏
-      LinkPresets.Sponsor,
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "#",
+		icon: "material-symbols:info",
+		children: [
+			// 打赏
+			LinkPresets.Sponsor,
 
-      // 关于页面
-      LinkPresets.About,
-    ],
-  });
+			// 关于页面
+			LinkPresets.About,
+		],
+	});
 
-  // 自定义导航栏链接
-  links.push({
-    name: "我的足迹",
-    url: "#",
-    icon: "mdi:foot-print",
-    // 子菜单
-    children: [
-      {
-        name: "GitHub",
-        url: "https://github.com/SpringFieldCafe",
-        external: true,
-        icon: "fa7-brands:github",
-      },
-      {
-        name: "Gitee",
-        url: "https://gitee.com/h-keduoli-q",
-        external: true,
-        icon: "fa7-brands:gitee",
-      },
-      {
-        name: "知乎",
-        url: "https://www.zhihu.com/people/a-zhe-31-50",
-        external: true,
-        icon: "fa7-brands:zhihu",
-      },
-      {
-        name: "Bilibili",
-        url: "https://space.bilibili.com/493693137",
-        external: true,
-        icon: "fa7-brands:bilibili",
-      },
-    ],
-  });
-  // 致谢及模板相关链接
-  links.push({
-    name: "致谢",
-    url: "#",
-    icon: "material-symbols:favorite",
-    children: [
-      {
-        name: "原作者",
-        url: "https://github.com/CuteLeaf",
-        external: true,
-        icon: "fa7-brands:github",
-      },
-      {
-        name: "Firefly",
-        url: "https://github.com/CuteLeaf/Firefly",
-        external: true,
-        icon: "fa7-brands:github",
-      },
-      {
-        name: "Firefly 文档",
-        url: "https://docs-firefly.cuteleaf.cn",
-        external: true,
-        icon: "material-symbols:docs",
-		},
-	  {
-	  name: "Firefly交流群",
+	// 自定义导航栏链接
+	links.push({
+		name: "我的足迹",
+		url: "#",
+		icon: "mdi:foot-print",
+		// 子菜单
+		children: [
+			{
+				name: "GitHub",
+				url: "https://github.com/SpringFieldCafe",
+				external: true,
+				icon: "fa7-brands:github",
+			},
+			{
+				name: "Gitee",
+				url: "https://gitee.com/h-keduoli-q",
+				external: true,
+				icon: "fa7-brands:gitee",
+			},
+			{
+				name: "知乎",
+				url: "https://www.zhihu.com/people/a-zhe-31-50",
+				external: true,
+				icon: "fa7-brands:zhihu",
+			},
+			{
+				name: "Bilibili",
+				url: "https://space.bilibili.com/493693137",
+				external: true,
+				icon: "fa7-brands:bilibili",
+			},
+		],
+	});
+	// 致谢及模板相关链接
+	links.push({
+		name: "致谢",
+		url: "#",
+		icon: "material-symbols:favorite",
+		children: [
+			{
+				name: "原作者",
+				url: "https://github.com/CuteLeaf",
+				external: true,
+				icon: "fa7-brands:github",
+			},
+			{
+				name: "Firefly",
+				url: "https://github.com/CuteLeaf/Firefly",
+				external: true,
+				icon: "fa7-brands:github",
+			},
+			{
+				name: "Firefly 文档",
+				url: "https://docs-firefly.cuteleaf.cn",
+				external: true,
+				icon: "material-symbols:docs",
+			},
+			{
+				name: "Firefly交流群",
 				url: "https://qm.qq.com/q/ZGsFa8qX2G",
 				external: true,
 				icon: "fa7-brands:qq",
 			},
-      {
-        name: "Astro",
-        url: "https://astro.build/",
-        external: true,
-        icon: "material-symbols:rocket-launch",
-		},
-	  
-    ],
-  });
+			{
+				name: "Astro",
+				url: "https://astro.build/",
+				external: true,
+				icon: "material-symbols:rocket-launch",
+			},
+		],
+	});
 
-  // 文档链接
-  // links.push({
-  // 	name: "文档",
-  // 	url: "https://docs-firefly.cuteleaf.cn",
-  // 	external: true,
-  // 	icon: "material-symbols:docs",
-  // });
+	// 文档链接
+	// links.push({
+	// 	name: "文档",
+	// 	url: "https://docs-firefly.cuteleaf.cn",
+	// 	external: true,
+	// 	icon: "material-symbols:docs",
+	// });
 
-  return { links } as NavBarConfig;
-};;
+	return { links } as NavBarConfig;
+};
 
 // 导航搜索配置
 export const navBarSearchConfig: NavBarSearchConfig = {
