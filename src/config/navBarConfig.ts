@@ -72,7 +72,7 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 
   // 自定义导航栏链接
   links.push({
-    name: "足迹",
+    name: "我的足迹",
     url: "#",
     icon: "mdi:foot-print",
     // 子菜单
@@ -203,7 +203,7 @@ export const LinkPresets: Record<string, NavBarLink> = {
 		pageKey: "guestbook",
 	},
 	About: {
-		name: "关于我",
+		name: "关于本站",
 		url: "/about/",
 		icon: "material-symbols:person",
 	},
