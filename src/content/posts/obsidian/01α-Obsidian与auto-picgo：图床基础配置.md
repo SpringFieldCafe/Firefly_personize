@@ -1,11 +1,12 @@
 ---
-title: Obsidian与auto-git
-published: 2026-06-29
+title: 01α-Obsidian与auto-picgo：图床基础配置
+published: 2026-06-27
 pinned: false
-description: 启用Picgo图床和auto-git
+description: 配置Picgo图床以及插件
 tags: [Obsidian]
 category: Obsidian笔记
-draft: false
+
+
 ---
 
 

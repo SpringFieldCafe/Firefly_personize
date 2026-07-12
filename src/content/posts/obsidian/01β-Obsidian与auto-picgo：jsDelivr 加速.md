@@ -1,13 +1,13 @@
 ---
-title: Obsidian与auto-git
-published: 2026-06-28
+title: 01β-Obsidian与auto-picgo：jsDelivr 加速
+published: 2026-06-31
 pinned: false
-description: 使用CDN为图床加速
+description: 使用jsDelivr加速
 tags: [Obsidian]
 category: Obsidian笔记
-draft: false
----
 
+
+---
 
 
 # 01β-Obsidian与auto-picgo：jsDelivr 加速

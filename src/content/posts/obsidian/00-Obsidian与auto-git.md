@@ -1,11 +1,12 @@
 ---
-title: Obsidian与auto-git
-published: 2026-06-27
+title: 00-Obsidian与auto-git
+published: 2026-06-25
 pinned: false
 description: 下载安装Obsidian并启用auto-git
 tags: [Obsidian]
 category: Obsidian笔记
-draft: false
+
+
 ---
 
 
